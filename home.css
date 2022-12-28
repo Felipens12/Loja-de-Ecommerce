@@ -19,7 +19,7 @@
     font-display: swap;
     src: url("https://fonts.gstatic.com/s/alata/v9/PbytFmztEwbIoce9zqY.woff2") format("woff2");
 }
- 
+
 .material-symbols-outlined{
   font-variation-settings:
   'FILL' 0,
@@ -126,7 +126,7 @@ a{
     height: 90vh;
 }
 
-.botao{
+.button{
     display: flex;
     align-items: center;
     text-align: center;
