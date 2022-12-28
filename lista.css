@@ -1,0 +1,188 @@
+@font-face{
+    font-family: "Alata";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/alata/v9/PbytFmztEwbIoceyzqYhQA.woff2") format("woff2");
+}
+@font-face{
+    font-family: "Alata";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/alata/v9/PbytFmztEwbIocezzqYhQA.woff2") format("woff2");
+}
+@font-face{
+    font-family: "Alata";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/alata/v9/PbytFmztEwbIoce9zqY.woff2") format("woff2");
+}
+
+@media (max-width: 600px){
+     table caption{display:none; }
+}
+
+.material-symbols-outlined{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+ 
+body, ul, li, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Alata', sans-serif;
+    font-size: .875rem;
+}
+
+header{    
+    background: #ffffff;
+}
+ 
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+ 
+a{
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+}
+ 
+.categorias{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.categorias li{
+    display: flex;
+    font-weight: 700;
+    padding: 0px 10px;
+    font-family: 'Alata', sans-serif;
+    font-size: .875rem;
+}
+ 
+ 
+.categorias li a{
+    color: #000000;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+ 
+.categorias li a:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out 0s;
+}
+ 
+.categorias li a:hover:before{
+    transform: scaleX(0.9);
+}
+ 
+.icon{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.icon li{
+    display: flex;
+    margin-left: 40px;
+}
+
+.table-position{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+table{
+    width:50%;
+}
+
+table, th, td{
+    border:1px solid #000000;
+    border-collapse:collapse;
+    padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+td:nth-child(3),tfoot td:nth-child(2) {
+    text-align:left;
+}
+
+td:nth-child(4){
+    width:10%
+}
+
+th{
+    background-color: #d29400;
+}
+
+.footer{
+    background: #f9f9f9;
+    padding: 2rem 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer-background{
+    background-image: url(https://www.cienalab.com.br/images/texture2.png);
+    height: 100%;
+    opacity: .16;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-ref{
+    text-align: center;
+    font-size: .875rem;
+}
